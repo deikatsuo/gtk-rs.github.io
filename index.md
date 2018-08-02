@@ -35,6 +35,8 @@ layout: wide
 
 ## Using
 
+Prepare your system: [Requirements](http://gtk-rs.org/docs-src/requirements.html)
+
 Include `gtk` in your `Cargo.toml` and set the minimal GTK version required by your project:
 {% assign gtk = site.data.crates | where: "name", "gtk" %}
 
@@ -106,10 +108,19 @@ features = ["v3_10"]
 * [systemd-manager](https://github.com/mmstick/systemd-manager)
 * [tv-renamer](https://github.com/mmstick/tv-renamer)
 * [PNMixer-rs](https://github.com/hasufell/pnmixer-rust)
-* [BrewStillery](https://github.com/MonkeyLog/BrewStillery)
+* [BrewStillery](https://gitlab.com/MonkeyLog/BrewStillery)
 * [Way Cooler](https://github.com/way-cooler)
 * [Hammond](https://gitlab.gnome.org/alatiera/Hammond)
 * [Font Finder](https://github.com/mmstick/fontfinder)
 * [Fractal](https://gitlab.gnome.org/danigm/fractal)
+* [Epicwar Downloader](https://github.com/ab0v3g4me/epicwar-downloader)
+* [Whatschanging](https://github.com/mothsART/whatschanging)
+* [Popsicle](https://github.com/pop-os/popsicle/)
+* [media-toc](https://github.com/fengalin/media-toc)
+* [glide](https://github.com/philn/glide)
+* [relm](https://github.com/antoyo/relm)
+* [mcmmtk](https://github.com/pwil3058/mcmmtk)
+* [pcatk](https://github.com/pwil3058/pcatk)
+* [Podcasts](https://gitlab.gnome.org/World/podcasts)
 
 If you want yours to be added to this list, please create a [Pull Request](https://github.com/gtk-rs/gtk-rs.github.io/compare?expand=1) for it!
